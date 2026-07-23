@@ -1,7 +1,0 @@
-Tuple1 = (1, 2, 3, 4, 5, 6)
-print(Tuple1 [2])
-print(type(Tuple1))
-print(len(Tuple1))
-Tuple1 = (1, 2, 3, 4, 5, 6, ("hello"))
-print(Tuple1)
-print(Tuple1[1])
