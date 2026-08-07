@@ -1,0 +1,7 @@
+sentiment_labels = ("Positive", "Negative", "Positive", "Positive", "Neutral", "Negative", "Neutral")
+pos_count = sentiment_labels.count("Positive")
+neg_count = sentiment_labels.count("Negative")
+neu_count = sentiment_labels.count("Nuetrals")
+print("Positive Count:", pos_count)
+print("Negative Count:", neg_count)
+print("Neutral Count :",neu_count)
