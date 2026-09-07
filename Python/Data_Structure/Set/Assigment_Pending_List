@@ -1,0 +1,12 @@
+python_class = set()
+Ml_class = set()
+print("python class")
+for i in range(3):
+    name = input ("enter the python class name ")
+    python_class.add(name)
+print("\n Ml Class ")
+for i in range (3):
+    name = input ("enter the ML class name")
+    Ml_class.add(name)
+    common_student = python_class & Ml_class
+    print("Common student in both classes are", common_student)

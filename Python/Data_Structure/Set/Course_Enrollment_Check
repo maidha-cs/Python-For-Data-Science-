@@ -1,0 +1,3 @@
+python_class = {"Ali", "Maidha", "Sara", "Zain"}
+ml_class = {"Sara", "Hassan", "Maidha", "Usman"}
+print(python_class & ml_class)
