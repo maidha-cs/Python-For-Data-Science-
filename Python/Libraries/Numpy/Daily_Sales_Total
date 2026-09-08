@@ -1,0 +1,5 @@
+import numpy as np
+sales = [1200, 1500, 800, 2000, 1700, 1900, 2200]
+arr = np.array(sales)
+total_sale=np.sum(arr)
+Average_total =np.mean(arr) 

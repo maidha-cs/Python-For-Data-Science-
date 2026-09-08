@@ -1,0 +1,6 @@
+import numpy as np
+celsius = input("Enter tempratue in celsius:")
+celsius_list = [float(val) for val in celsius.split()]
+arr = np.array(celsius_list)
+farhenhite = (arr * 9 / 5) + 32
+print("Temprature in farhenhite is:", farhenhite)
